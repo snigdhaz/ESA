@@ -1,0 +1,151 @@
+
+
+.ContactPost{
+    margin-top: 5px;
+    background-color: lightblue;
+    border:steelblue;
+    height:50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas: 
+        "ContactImage ContactInfo Edit"
+        "Details";
+    grid-template-columns: 10% 80% 10%;
+    grid-gap: 0.1px;
+    /* width: 600px; */
+}
+.ContactImage{
+    width: 100%;
+    /* margin: auto; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:2px;
+}
+.ContactName{
+    /* width:70%; */
+    margin: auto;   
+    border-right: black;
+
+}
+.NumberDisp{
+    margin-top:10px;
+}
+.Details{
+    margin-top: 5px;
+    background-color: lightblue;
+    border:steelblue;
+    /* height:50px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.EditDp{
+    margin-top: 10px;
+    text-align: center;
+}
+.EditName{
+    margin-top: 20px;
+    text-align: center;
+    /* margin:auto; */
+}
+.EditNumber{
+    margin-top: 20px;
+    text-align: center;
+    /* margin:auto; */
+    /* margin-left: ; */
+
+}
+.EditButtons{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+.EditButtDiv{
+    width: 100%;
+    text-align: center;
+}
+#buttone{
+    /* width: 100px; */
+    height:40px;
+    border: transparent;
+    border-radius: 10px;
+    display: inline-flex;
+    /* margin-left: 10px;         */
+}
+#buttoneSave{
+    /* width: 100px; */
+    height:40px;
+    border: transparent;
+    border-radius: 10px;
+    display: inline-flex;
+    /* margin-left: 10px;         */
+}
+#buttoneDel{
+    /* width: 100px; */
+    height:40px;
+    border: transparent;
+    border-radius: 10px;
+    display: inline-flex;
+    /* margin-left: 10px;         */
+}
+#imge{
+    height:25px;
+    margin-top: 5px;
+}
+#EditInput{
+    border-radius: 5px;
+    border: transparent;
+    text-align: center;
+    margin-left: 10px;
+    height: 20px;
+}
+#PostButton{
+    width: 100%;
+    background-color: transparent;
+    border: transparent;
+}
+#PostButton:focus{outline: 0;}
+
+#Dp{
+    height:40px;
+    
+    /* border:solid; */
+    border-radius: 40px;
+    /* background-color:lightgreen */
+}
+#DpEdit{
+    height:60px;
+    
+    /* border:solid; */
+    border-radius: 40px;
+
+}
+#EditIcon{
+    float: right;
+    margin: auto;
+    height:20px;
+}
+#EditButton{
+    border:transparent;
+    background-color: transparent;
+    height: 100%;
+
+}
+#EditButton:focus{outline: 0;}
+
+
+.Edit{
+    float: right;
+    /* margin: auto; */
+}
+
+@media screen and (max-width: 600px){
+    .ContactPost{
+        width: 100%;
+    }
+
+}

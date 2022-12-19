@@ -1,0 +1,114 @@
+
+.Landing{
+    height: 100%;
+    background-color: tomato;
+    display: flex;
+    /* margin-top: 20%; */
+    width: 100%;
+    
+  }
+  .Text{
+      width: 80%;
+    padding-top: 15%;
+
+  }
+  .LandingHeader{
+    font-size: xx-large;
+    padding-left: 50px;
+  }
+  .LandingNavigation{
+    /* padding-top: 15%; */
+    /* font-size: xx-large; */
+    margin-top: -10px;
+    padding-left: 50px;
+  }
+
+.LandingWallpaper{
+    padding-top: 12%;
+    width: 50%;
+    /* text-align: center; */
+    /* padding-left: 20%; */
+    /* padding-right: 30px; */
+
+  
+  }
+  #LandingImg{
+    height:300px;
+    /* transform: rotate(20deg); */
+    float: right;
+
+  }
+  #landingNavBut{
+    background-color: transparent;
+    border: transparent;
+    font-size: large;
+  }
+@media screen and (max-width:850px){
+.Landing{
+    flex-direction: column;
+}
+.LandingHeader{
+    font-size: xx-large;
+    padding-left: 0px;
+  }
+.LandingWallpaper{
+    padding-top: 15%;
+    width: 100%;
+    text-align: center;
+    padding-left: 0%;
+    height: 50%;
+    /* float: left; */
+    /* padding-right: 30px; */  
+  }
+  .LandingNavigation{
+    /* padding-top: 15%; */
+    /* font-size: xx-large; */
+    margin-top: -10px;
+    padding-left: 0px;
+  }
+  #LandingImg{
+    height:200px;
+    float: none;
+    /* transform: rotate(20deg); */
+    /* float: center; */
+  }
+  .Text{
+    width: 100%;
+    padding-top: 0%;
+    height: 100%;
+    text-align: center;
+    padding-left: 0%;
+
+    }
+
+}
+@media screen and (max-width:400px){
+    #LandingImg{
+        height:150px;
+        /* transform: rotate(20deg); */
+        /* float: center; */
+        margin-bottom: -200px;
+      }
+    .LandingHeader{
+        font-size: x-large;
+        padding-left: 0px;
+      }
+}
+
+
+/* 
+@media screen and (max-width:600px){
+    .LandingWallpaper{
+      /* float: right; 
+      text-align: center;
+    
+    }
+    #LandingImg{
+      height:300px;
+    }
+    #landingNavBut{
+      background-color: transparent;
+      border: transparent;
+      font-size: large;
+    }
+  } */

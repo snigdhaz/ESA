@@ -1,0 +1,130 @@
+
+
+
+.Register{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* padding-top: 5%; */
+    /* padding-bottom: 5%; */
+
+}
+.RegisterBox{
+    text-align: center;
+    margin: auto;
+    border: transparent;
+    background-color: tomato;
+    width: 60%;
+    /* margin-top: 100px%; */
+    height:80%;
+    border-radius: 10px;
+    
+    
+}
+.RegForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    
+
+}
+
+.Signup-form{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* flex-direction: row; */
+}
+.Labels{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Inputs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.Captcha{
+    margin: auto;
+    margin-top: 20px;
+}
+.ErrorMsg{
+    /* background-color: white; */
+    margin-top: ;
+    width: 50%;
+    margin: auto;
+    display: inline-flex;
+    margin-left: 40%;
+    margin-bottom: -15 px;
+    /* text-align: center; */
+}
+.ErrorMsgs{
+    display: flex;
+    flex-direction: column;
+    
+}
+#ErrorImg{
+    margin-top: 5px;
+    /* margin: auto; */
+
+    height: 20px;
+    width: auto;
+    /* margin: auto; */
+    margin-right: 0;
+    
+    /* margin-right:auto; */
+    /* width: 50%; */
+
+}
+#ErrorP{
+    /* margin: auto; */
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#inputlabel{
+    text-align: center;
+    margin-top: 20px;
+}
+#inputfield{
+    margin-left: 100px;
+    border-radius: 5px;
+    /* border: transparent; */
+    border: solid;
+    text-align: center;
+    height: 30px;
+    margin-top: 20px;
+}
+#RegButton{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid;
+    background-color: turquoise;
+    height: 30px;
+    width:100px
+}
+
+
+/* #InputLabel{
+    margin-top: 20px;
+} */
+
+@media screen and (max-width: 700px){
+
+    .RegisterBox{
+        height: 100%;
+        width: 100%;
+    }
+    .RegForm{
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width: 700px){
+    #inputfield{
+        margin-left: 50px;
+    }
+
+}
